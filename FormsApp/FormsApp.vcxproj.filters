@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Forms Design">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{3e387293-20ab-4293-b494-bcda7ac779a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms Cpp">
+      <UniqueIdentifier>{200c2f1e-52ed-461a-bb4e-80560a70c457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{1cd0abce-7041-4699-9eb3-7b17c86d5561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\Repository">
+      <UniqueIdentifier>{59ba01ed-c6d2-4fcf-bef9-de8ccd5dca36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\Entities">
+      <UniqueIdentifier>{e84bcff9-0be8-4c00-a3e2-5f6f686ef305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structure">
+      <UniqueIdentifier>{f0007060-b4a2-4991-a3ce-6c6d9b9919b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>Forms Design</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UserData.h">
+      <Filter>Database\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryFilter.h">
+      <Filter>Database\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlRepo.h">
+      <Filter>Database\Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDataStruct.h">
+      <Filter>Data Structure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Form1.cpp">
+      <Filter>Forms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserData.cpp">
+      <Filter>Database\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryFilter.cpp">
+      <Filter>Database\Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlRepo.cpp">
+      <Filter>Database\Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDataStruct.cpp">
+      <Filter>Data Structure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
